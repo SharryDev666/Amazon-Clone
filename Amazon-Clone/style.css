@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+.top-nav {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nav-logo-loc {
+    height: 60px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-logo-loc img {
+    width: 100px;
+    height: 50px;
+    padding: 15px;
+}
+
+.nav-logo-loc img:hover {
+    border: 2px solid white;
+}
+
+.nav-loc {
+    height: 60px;
+    width: 93px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.nav-loc:hover {
+    border: 2px solid white;
+}
+
+.nav-loc>p {
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.nav-loc-div {
+    display: flex;
+    align-items: center;
+}
+
+.nav-loc-div>p {
+    margin-left: 5px;
+}
+
+.nav-search {
+    width: 660px;
+    height: 60;
+
+}
+
+.nav-search {
+    height: 60px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-search-list {
+    border: 3px solid #ff9900;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #e6e6e6;
+
+}
+
+.nav-search input {
+    width: 90%;
+    height: 40px;
+
+}
+
+.nav-search-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #f3a847;
+    text-align: center;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.nav-others {
+    height: 60px;
+    width: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-globe {
+    height: 60px;
+    width: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav-globe:hover {
+    border: 2px solid white;
+}
+
+.account-lists {
+    height: 60px;
+    width: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    margin: auto;
+}
+
+.account-lists:hover {
+    border: 2px solid white
+}
+
+.account-lists p {
+    font-size: 12px;
+}
+
+.cart {
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+
+}
+
+.cart:hover {
+    border: 2px solid white
+}
+
+.second-nav {
+    height: 40px;
+    width: 100%;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.second-nav-items {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    color: white;
+    font-size: 13px;
+}
+
+.second-nav-items:hover {
+    border: 2px solid white;
+}
+
+.main-background {
+    height: 600px;
+    width: 1500px;
+    background-image: url("Kitchen_estential.jpg");
+    background-size: cover;
+    margin: auto;
+}
+
+.empty-section {
+    height: 270px;
+    width: 100%;
+
+}
+
+.display-cards {
+    height: 480px;
+    width: 1500px;
+    margin: auto;
+    display: flex;
+    background-color: antiquewhite;
+
+}
+
+.display-cards-item {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.heading-section {
+    height: 10%;
+}
+
+.display-cards-item h2 {
+    margin: 10px;
+}
+
+.display-cards-item img {
+    height: 80%;
+    width: 300px;
+}
+.display-cards-item:hover{
+     border: 3px solid grey;
+    cursor: pointer;
+}
+
+.foot-section {
+    height: 10%;
+    width: 300px;
+    font-size: 12px;
+    margin: 10px;
+    color: rgb(21, 116, 224);
+}
+
+.display-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heading-body {
+    height: 80%;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.body-items {
+
+    height: 40%;
+    width: 40%;
+    margin: auto;
+}
+.body-items:hover{
+    border: 3px solid grey;
+    cursor: pointer;
+}
+
+.body-items img {
+    height: 100%;
+    width: 100%;
+}
+
+.browsing-history-nav {
+    height: 300px;
+    width: 95%;
+    background-color: white;
+}
+
+.browsing-history-top {
+    height: 40px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.browsing-history-bottom {
+    height: 200px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+
+}
+
+.browsing-history-item {
+    height: 100%;
+    width: auto;
+}
+
+.browsing-history-item img {
+    height: 100%;
+    width: auto;
+
+}
+.browsing-history-item img:hover{
+    border: 3px solid grey;
+    cursor: pointer;
+}
+
+.foter {
+    height: 500px;
+    width: 105%;
+}
+
+.back-to-top {
+    height: 50px;
+    width: 105%;
+    background-color: #464e58;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    margin-top: 20px;
+
+
+}
+.back-to-top:hover{
+    background-color: #313030;
+}
+
+.footer-list-container {
+    height: 350px;
+    width: 105%;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.list-div {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lists {
+    color: white;
+
+    margin-top: 100px;
+    width: 200px;
+    height: 350px;
+
+}
+
+.lists ul {
+    list-style: none;
+}
+
+.lists ul li {
+    margin-top: 20px;
+    font-size: 13px;
+}
+.lists ul li:hover{
+    border: 2px solid white;
+}
+
+.doller {
+    height: 100px;
+    width: 105%;
+    background-color: #232f3e;
+    border-top: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.doller img{
+    height: 20px;
+    width: 80px;
+    margin: 30px;
+}
+.doller-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    height: 35px;
+    width: 130px;
+    background-color: #232f3e;
+    color: white;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn:hover{
+    background-color: #0f141a;
+}
